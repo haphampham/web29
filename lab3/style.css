@@ -1,0 +1,47 @@
+
+.box1{
+    background-color: red;
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+    padding-right:50px ;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    border-style: ;
+    border-width: ;
+    border-color: ;
+    border: 10px solid yellow;
+
+    box-sizing: content-box;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 10px 30px 15px red;
+}
+.box2{
+    background-color: blue;
+    width: 400px;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    border: 20px solid red;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 30px 10px pink;
+
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 4000px;
+    overflow: hidden;
+}
+body{
+    background-image: url(https://file1.dangcongsan.vn/DATA/0/2018/10/68___gi%E1%BA%BFng_l%C3%A0ng_qu%E1%BA%A3ng_ph%C3%BA_c%E1%BA%A7u__%E1%BB%A9ng_h%C3%B2a___%E1%BA%A3nh_vi%E1%BA%BFt_m%E1%BA%A1nh-16_51_07_908.jpg);
+    
+}

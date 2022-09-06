@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.cha{
+    width: 300px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, / 20px);
+    border-radius: 6px;
+    
+}
+.con1{
+    margin-bottom: 10px;
+}
+.con2{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.cha-title{
+    margin-bottom: 20px;
+}
+.cha-excerp{
+    border-top: 1px solid rgba(0, 0, 0, );
+}
