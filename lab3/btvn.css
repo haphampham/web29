@@ -1,0 +1,76 @@
+.cha1 {
+    width: 600px;
+    height: 100px;
+    box-shadow: 2px 2px 2px #000;
+    border: 1px solid #000;
+  }
+  .con1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 139, 106);
+    color: white;
+  }
+  .con2 {
+    margin: 0px;
+    padding: none;
+    margin-left: ;
+    height: 100px;
+    float: right;
+    padding-right: 80px;
+  
+    padding-top: 1px;
+  }
+  .chau1 {
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+  }
+  .chau2 {
+    width: 100px;
+    height: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chau3 {
+    width: 100px;
+    height: 8px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chat2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    height: 15px;
+    font-size: 13px;
+    padding-right: 60px;
+  }
+  .chat1 {
+    text-decoration: none;
+    width: 400px;
+    height: 25px;
+    margin: 0px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+  }
+  .con2 .h4 {
+    margin: 0px;
+  }
+  .chat3 {
+    text-decoration: none;
+  }
+  
