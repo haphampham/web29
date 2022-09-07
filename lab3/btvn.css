@@ -1,76 +1,58 @@
-.cha1 {
-    width: 600px;
-    height: 100px;
-    box-shadow: 2px 2px 2px #000;
-    border: 1px solid #000;
-  }
-  .con1 {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(231, 139, 106);
-    color: white;
-  }
-  .con2 {
-    margin: 0px;
-    padding: none;
-    margin-left: ;
-    height: 100px;
-    float: right;
-    padding-right: 80px;
-  
-    padding-top: 1px;
-  }
-  .chau1 {
-    font-size: 15px;
-    width: 100px;
-    height: 20px;
+.nha{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ffff;
+    border-radius:10px ;
+    box-shadow: 2px 2px 2px #958888;
+}
+.cha1{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(247, 104, 52);
+    color: #ffff;
+    border: 1px solid rgb(247, 104, 52);
+    border-radius: 10px;
+}
+.con1{
     background-color: orangered;
-    display: flex;
-    justify-content: center;
-  }
-  .chau2 {
-    width: 100px;
-    height: 30px;
-    font-size: 30px;
+    height: 40px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5px;
-    margin-top: 5px;
+    border-radius: 10px;
+}
+.con2{
+    font-size: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .chau3 {
-    width: 100px;
-    height: 8px;
-    font-size: 8px;
+    padding-top: 40px;
+}
+.con3{
     display: flex;
     justify-content: center;
-    align-items: center;
-  }
-  
-  .chat2 {
-    display: flex;
-    justify-content: space-between;
-    font-size: 15px;
-    height: 15px;
-    font-size: 13px;
-    padding-right: 60px;
-  }
-  .chat1 {
-    text-decoration: none;
-    width: 400px;
-    height: 25px;
-    margin: 0px;
+    font-size: 25px;
+}
+.cha2{
+    padding: 20px 20px 20px;
+}
+.chau1 a{
     color: #000;
-    display: flex;
-    justify-content: center;
-  }
-  .con2 .h4 {
-    margin: 0px;
-  }
-  .chat3 {
     text-decoration: none;
-  }
-  
+    font-size: 30px;
+}
+.p{
+    display: block;
+    margin-block-start: 1em ;
+    margin-block-end:1em ;
+    margin-inline-start:0px ;
+    margin-inline-end:0px ;
+}
+.i{
+    font-style: italic;
+}
+.chau3 a{
+    text-decoration: none;
+}
