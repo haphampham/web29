@@ -1,47 +1,58 @@
-
-.box1{
-    background-color: red;
-    width: 300px;
-    height: auto;
-    padding-top: 20px;
-    padding-right:50px ;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    border-style: ;
-    border-width: ;
-    border-color: ;
-    border: 10px solid yellow;
-
-    box-sizing: content-box;
-    margin-bottom: 40px;
-    margin-left: auto;
+.nha{
+    width: 500px;
     margin-right: auto;
-
-    box-shadow: 10px 30px 15px red;
-}
-.box2{
-    background-color: blue;
-    width: 400px;
-    padding-top: 30px;
-    padding-right: 60px;
-    padding-bottom: 30px;
-    padding-left: 35px;
-    border: 20px solid red;
-    margin-bottom: 50px;
     margin-left: auto;
-    margin-right: auto;
-
-    box-shadow: 30px 10px pink;
-
+    border: 1px solid #ffff;
+    border-radius:10px ;
+    box-shadow: 2px 2px 2px #958888;
 }
-.avatar{
-    width: 100px;
-    height: 100px;
-
-    border-radius: 4000px;
-    overflow: hidden;
+.cha1{
+    width: 500px;
+    height: 250px;
+    background-color: #4b96f2;
+    color: #ffff;
+    border: 1px solid #4b96f2);
+    border-radius: 10px;
 }
-body{
-    background-image: url(https://file1.dangcongsan.vn/DATA/0/2018/10/68___gi%E1%BA%BFng_l%C3%A0ng_qu%E1%BA%A3ng_ph%C3%BA_c%E1%BA%A7u__%E1%BB%A9ng_h%C3%B2a___%E1%BA%A3nh_vi%E1%BA%BFt_m%E1%BA%A1nh-16_51_07_908.jpg);
-    
+.con1{
+    background-color: #2682f2;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.con2{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.con3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.cha2{
+    padding: 20px 20px 20px;
+}
+.chau1 a{
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+}
+.p{
+    display: block;
+    margin-block-start: 1em ;
+    margin-block-end:1em ;
+    margin-inline-start:0px ;
+    margin-inline-end:0px ;
+}
+.i{
+    font-style: italic;
+}
+.chau3 a{
+    text-decoration: none;
 }
