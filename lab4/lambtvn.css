@@ -51,12 +51,14 @@ img {
 .phong-2 {
     font-size: 20px;
     font-weight: 500;
+ 
 }
 
 .phong-3 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    
 }
 
 .phong-1 img {

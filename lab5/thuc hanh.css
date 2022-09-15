@@ -1,0 +1,124 @@
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    background-color: rgb(157, 157, 255);
+    padding-bottom: 4px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    background-color: rgb(39, 55, 78);
+}
+
+.menu-item {
+    flex-grow: 1;
+    position: relative;
+}
+
+.menu-link {
+    display: block;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-link.active {
+    background-color: rgb(157, 157, 255);
+}
+
+.menu-item:hover .menu-link {
+    background-color: rgb(157, 157, 255);
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub-item {
+    position: relative;
+}
+
+.sub-item:hover .sub-link {
+    background-color: rgb(157, 157, 255);
+    color: white;
+}
+
+.sub-item:hover .sub-sub-menu {
+    display: block;
+}
+
+.sub-link {
+    display: block;
+    padding: 15px 50px 15px 20px;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.triangle {
+    position: absolute;
+    bottom: 100%;
+    left: 18px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent white transparent;
+}
+
+.sub-sub-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub-sub-item:hover .sub-sub-link {
+    background-color: rgb(157, 157, 255);
+    color: white;
+}
+
+.sub-sub-link {
+    display: block;
+    padding: 15px 50px 15px 20px;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.left-triangle {
+    position: absolute;
+    right: 100%;
+    top: 14px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
