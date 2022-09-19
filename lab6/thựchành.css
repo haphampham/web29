@@ -1,18 +1,38 @@
-body{
-    background-color: aqua;
-}
-.wavy-text{
-    
-    background-color: aquamarine;
-}
-.wavy-text .text{
- animation: fly 0.8s linear 0s infinite normal both;
-}
-@keyframes fly{
-    from ,to{
-        transform: translateY(0);
+
+.wavy-text .text {
+    display: inline-block;
+    animation: fly 0.8s linear 0.5s infinite normal both;
+  }
+  .wavy-text .text:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .wavy-text .text:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  .wavy-text .text:nth-child(3) {
+    animation-delay: 0.15s;
+  }
+  .wavy-text .text:nth-child(4) {
+    animation-delay: 0.25s;
+  }
+  .wavy-text .text:nth-child(5) {
+    animation-delay: 0.15s;
+  }
+  .wavy-text .text:nth-child(6) {
+    animation-delay: 0.1s;
+  }
+  .wavy-text .text:nth-child(7) {
+    animation-delay: 0s;
+  }
+  @keyframes fly {
+    0% {
+      transform: translateY(0);
     }
-50%{
-    transform: translateY(150%);
-}
-}
+    50% {
+      transform: translateY(200%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
