@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  div {
+    display: block;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  #header {
+    background-color: #FEF9F7;
+    min-height: 60px;
+  }
+  
+  .container {
+    width: 1140px;
+    margin: auto;
+  }
+  .header-inner {
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+  .logo, .menu {
+    flex: 0 0 50%;
+  }
+  .card-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+  }
+  h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .logo, .menu {
+    flex: 0 0 50%;
+  }
+  
+  .menu-item {
+    display: inline-block;
+    padding: 6px 15px;
+  }
+  
+  
+  .btn-contact {
+    background-color: #f05510;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  .intro-content {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .intro-content h1 {
+    font-size: 48px;
+    color: #f05510;
+  }
+  .intro-content p {
+    font-size: 20px;
+    margin: 10px 0 25px;
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .intro-content a {
+    width: 120px;
+    padding: 10px 20px;
+    border: 2px solid #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+  }
+  a {
+    text-decoration: none;
+    color: #111;
+  }
+  .team {
+    background-image: url(https://cdn.pastaxi-manager.onepas.vn/content/uploads/articles/lentkdau/mauthietkenhahangdep/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 20px;
+}
+.team-item {
+    padding: 40px 0;
+}
+.team-item h1 {
+    font-size: 36px;
+    line-height: 1.1;
+    color: #f05510;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.team-item p {
+    color: #696969;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.team-item h3 {
+    margin-top: 1rem;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#footer {
+    background-color: #FEF9F7;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .author {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .copy-right {
+    font-weight: 700;
+    color: #f05510;
+  }
+  
