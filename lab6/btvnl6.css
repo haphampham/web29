@@ -92,6 +92,7 @@ a {
 .header {
     background-color: #ffffff);
     box-shadow: 0 0 1px 0 rgb(0 0 0 / 50%);
+    z-index: 1;
 }
 
 
