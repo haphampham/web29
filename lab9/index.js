@@ -1,39 +1,50 @@
-let x = 1;
+//   let  age =19;
 
- console.log(typeof x);
-//  function
-//  cac câu lệnh được bọc trommg khối mã và gán cho  tên biến
-//  cho phép tái sử dụng mã nhiều lầm ,nhiều nơi
+// if (age>= 18) {
+//     console.log("oke , bạn đc phép truy cập trang web");
 
-//  cú pháp khai báo hàm 
-//  {phần body}
-// tham số -parameters-()
- function chao(ten,abc) { 
-  console.log("hello , " + ten + " raats vui đc làm quen");
- } 
-//  đối số -arguments-các gí trị xác định cho tham số hàm
- chao("Ba");
- chao("Béo");
- chao("ú");
- chao("ị");
-//  biểu thức hàm (giống khai báo biến)
-const tambiet =function () {
-    console.log("goodbye ba, chim cút ")
-}
-tambiet();
+// }else{
+//     console.log("oke , bạn  ko đc phép truy cập trang web");
+// }
 
-function cong(a,b){
-    // giá trị trả về
-    return a+b;
-
-    console.log(a + b);
+// thực hiện các câu lệnh theonđiều kiện ,nếu sai thì ko làm gì cả 
+let isRaining = true
+if (isRaining)  {
+    console.log("cởi áo ra")
 }
 
-// cong(1,2); tạo ra các giá trị
-console.log(cong(1,2));
-console.log(cong(1,2));
-console.log(cong(1,2));
-//1. chạy hàm cong
-//2.ham cong trả lại giá trị 3
-//3. đặt giá trị 3 vào biểu thức console.log
-//cosole.log(cong(1,2))=>cosole.log(3)=>in 3 ra màn hình
+// thực hiện 2 nhóm câu lệnh theo điều kiện 
+let hasExercises = true;
+if (hasExercises) {
+    console.log("ngủ");
+} else{
+    console.log("dậy")
+}
+
+// các câu lệnh if else có thể lồng nhau ,giúp mk cho phép kiểm tra đk con
+let isWeekend =false;
+let inRelationship=true;
+
+if(isWeekend){
+    if(inRelationship){
+        console.log("ngủ");
+    }else{
+        console.log("ngủ")
+    }
+}else{
+    console.log("ngủ/ngủ")
+}
+
+// kiểm tra nhiều đk else if
+
+let soNamKinhNgiem=10;
+
+if(soNamKinhNgiem < 2){
+    console.log("1 củ")
+}else if(soNamKinhNgiem <4 ){
+    console.log("2 củ")
+}else{
+    console.log("300 củ");
+}
+
+

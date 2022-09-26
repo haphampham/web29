@@ -7,6 +7,12 @@
 html{
   font-family: Arial, Helvetica, sans-serif;
 }
+.clear{
+  clear: both;
+}
+.text-white{
+  color: #fff !important;
+}
 .mand{
 
 }
@@ -116,6 +122,7 @@ html{
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  
 }
 .container .content-section{
     width: 800px;
@@ -158,4 +165,163 @@ html{
    width: 154px;
   margin-top: 15px;
   border-radius: 5px;
+}
+.tour{
+  background-color: #000;
+  width: 1519px;
+  margin-left: -360px;
+
+  
+}
+.ve-list{
+  background-color: #fff;
+  margin-top: 40px;
+}
+.ve-list li{
+  color: #757575;
+ font-size: 15px;
+ padding: 11px 16px;
+border-bottom: 1px solid #ddd;
+list-style: none;
+
+}
+.ve-list .sold-out{
+  background-color: #f44336;
+  color: #fff;
+  padding: 3px 4px;
+  margin-left: 16px;
+}
+.ve-list .so{
+   float: right;
+   width: 24px;
+   height: 24px;
+   background-color: #000;
+   color: #fff;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 24px;
+}
+
+.play-list{
+ margin-top: 32px;
+ margin-left: -8px;
+ margin-right: -8px;
+ padding-bottom: 48px;
+}
+.play-item{
+   float: left;
+   width: 33.33333%;
+   padding: 0 8px;
+}
+
+.play-img{
+  width: 100%;
+  display: block;
+}
+.play-img:hover{
+ opacity: 0.6;
+}
+
+.play-body{
+  padding: 16px;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.play-headding{
+   font-size: 15px;
+   font-weight: 600;
+}
+
+.play-tame{
+  margin-top: 15px;
+  color: #757575;
+}
+
+.play-decse{
+  margin-top: 15px;
+  line-height: 1.4;
+}
+.play-buy-btn{
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 11px 16px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.play-buy-btn:hover{
+  color: #000;
+  background-color: #ccc;
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0 , 0.4);
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.modal-conter{
+  background-color: #fff;
+  width: 900px;
+  min-height: 200px;
+  position: relative;
+}
+.modal-close:hover{
+  opacity: 1;
+}
+.modal-close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+  padding: 12px;
+  cursor: grabbing;
+  opacity: 0.8;
+}
+.modal-heard{
+  background: #009688;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #fff;
+}
+.nut-icon{
+  margin-right: 20px;
+}
+
+.modal-body{
+  padding: 16px;
+}
+.modal-label{
+  display: block;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+.modal-input{
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 24px;
+}
+#buy-tickets{
+  background: #009688;
+  border: none;
+  color:#fff;
+  width: 100%;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 18px;
+  cursor: grabbing;
+}
+#buy-tickets:hover{
+  opacity: 0.9;
 }

@@ -85,7 +85,7 @@ function findAreaOfTriangle(a, b, c) {
     return((a+b+c)*(a+b-c)*(b+c-a)*(c+a-b) /4)
 }
 
-console.log("diện tích hình tam giác",findAreaOfCircle(5,5,5));
+console.log("diện tích hình tam giác",findAreaOfCircle(6,5,3));
 
 /**
  * Chuyển đổi nhiệt ở ở thang nhiệt Celsius sang Fahrenheit
@@ -100,3 +100,5 @@ function celsiusToFahrenheit(temp) {
     return((temp *1.8) + 32)
 }
 console.log("nhiệt độ ở thang nhiệt Fahrenheit là",celsiusToFahrenheit(4));
+
+
