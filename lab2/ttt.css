@@ -262,13 +262,14 @@ list-style: none;
   right: 0;
   left: 0;
   background-color: rgb(0, 0, 0 , 0.4);
-  display: flex;
+  display: none;
   align-items: center;
   justify-content:center;
 }
 .modal-conter{
   background-color: #fff;
   width: 900px;
+  max-width: calc(100%-32px);
   min-height: 200px;
   position: relative;
 }
@@ -324,4 +325,11 @@ list-style: none;
 }
 #buy-tickets:hover{
   opacity: 0.9;
+}
+.modal-footer{
+  padding: 16px;
+  text-align: right;
+}
+.modal-footer a{
+  color: #2196f3;
 }

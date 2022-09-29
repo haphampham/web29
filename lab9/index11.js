@@ -52,6 +52,10 @@
   console.log(findSeason(10));
   console.log(findSeason(4));
   console.log(findSeason(8))
+  
+
+
+
  /** 
   * Kiểm tra xem một năm có phải năm nhuận hay không
   *
@@ -119,22 +123,24 @@ console.log("thang 11 co bao nhieu ngay: ", findDayOfMonth(12, 2019));
   * @return {'A' | 'B' | 'C' | 'D' | 'F'} Xếp hạng tốt nghiệp của sinh viên
   */
  function calcGrade(point) {
-   if(point < 4.0){
+   if(point <= 4.0){
       return "F";
-   }else if(point < 5.5){
+   }else if(point <= 5.5){
       return "D";
-   }else if (point < 7.0){
+   }else if (point <= 7.0){
       return "C";
-   } else if (point< 8.5 ){
+   } else if (point<= 8.5 ){
       return "B";
    }else if(8.5 <= point <= 10){
       return "A"
-   }
+   }else return NaN;
  }
  console.log(calcGrade(10))
  console.log(calcGrade(9))
  console.log(calcGrade(1))
  console.log(calcGrade(7))
+
+ 
  /** 
   * Tính tiền cước taxi cho khách theo số kilomet đã di chuyển
   *
