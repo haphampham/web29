@@ -7,26 +7,34 @@
  *
  * @return {boolean} Số `n` cho có phải số nguyên tố hay không
  */
- function isPrime(n) {
-  if (n < 2){
-      return false;
-  }
-  else{
-      for (let i = 2; i < n-1; i++)
-      {
-          if (n % i == 0){
-              return false;   
-          }
-          return true;
-      }
-  }
 
   
- }
+function isPrime() {
+    let n = 1;
+
+    if (n <2) return false; 
+    
+    
+    let i = 2;
+    while(i <n){
+        if( n%i==0 ) {
+            return true;
+            break; 
+        }
+        i++;
+    }
+
+    return false;
+}
+
+
+
  console.log(isPrime(6));
- console.log(isPrime(8));
+ console.log(isPrime(21));
  console.log(isPrime(33));
- 
+ console.log(isPrime(17));
+  
+
  /**
   * Tính tổng các số nguyên tố trong khoảng từ 1 đến n
   *

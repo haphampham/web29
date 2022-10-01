@@ -33,3 +33,32 @@ for(let i =1 ; i<=10;i++){
 // begin :khai báo tham số vòng lặp
 // condtion: đk để vòng lặp chạy (đk phải dùng)
 // step: tăng hoặc giảm giá trị của tham số vòng lặp sau mỗi lượt 
+
+
+
+// function myFunction() {
+//     var n = document.getElementById("isNumber").value;
+//     document.getElementById("demo").innerHTML = n;
+//      var flag = true;
+
+//      if (n < 2){
+//          flag = false;
+//      }
+//      else{
+      
+//          for (var i = 2; i < n-1; i++)
+//          {
+//              if (n % i == 0){
+//                  flag = false;
+//                  break;
+//              }
+//          }
+//      }
+
+//      if (flag == true){
+//          document.write(n + " là số nguyên tố <br/>");
+//      }
+//      else{
+//          document.write(n + " không phải là số nguyên tố <br/>");
+//      }
+//   }
