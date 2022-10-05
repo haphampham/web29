@@ -62,3 +62,13 @@ for(let i =1 ; i<=10;i++){
 //          document.write(n + " không phải là số nguyên tố <br/>");
 //      }
 //   }
+
+
+// lỗi syntax => vscode có thể gợi ý đc (dấu gạch đỏ)
+ const  f= 1;
+ // lỗi runtime 
+ try{
+    console.log("sdfsdf");
+ }catch (err){
+    console.log()
+ }

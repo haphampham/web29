@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .mand{
+    border-radius: 0;
+    height: 100%;
+  }
+  .heard {
+    background: #f2f2f2;
+    border: none;
+    height: 70px;
+    position: relative;
+}
+ .logo-may{
+    font-size: 20px;
+    text-align: center;
+}
+ .logo-sao{
+    float: right;
+    padding: 0 21px;
+}
+/* */
+.slider{
+    color: #111111;
+    background-color: #ffffff;
+}
+
+.text-1{
+    background-color: yellow;
+    background-position: 50% 50%;
+    min-height: 607px;
+}
+.img{
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.text-vanban{
+
+}
+.chu{
+
+}
+.h1{
+
+}
+.h2{
+
+}
+.h3{
+    
+}
+

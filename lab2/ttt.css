@@ -7,12 +7,23 @@
 html{
   font-family: Arial, Helvetica, sans-serif;
 }
+/* common */
 .clear{
   clear: both;
 }
 .text-white{
   color: #fff !important;
 }
+.row{
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.col{
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* main */
 .mand{
 
 }
@@ -204,8 +215,6 @@ list-style: none;
 
 .play-list{
  margin-top: 32px;
- margin-left: -8px;
- margin-right: -8px;
  padding-bottom: 48px;
 }
 .play-item{
@@ -255,7 +264,7 @@ list-style: none;
   background-color: #ccc;
 }
 
-.modal{
+/* .modal{
   position: fixed;
   top: 0;
   bottom: 0;
@@ -332,4 +341,4 @@ list-style: none;
 }
 .modal-footer a{
   color: #2196f3;
-}
+} */

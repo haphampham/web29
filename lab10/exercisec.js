@@ -9,30 +9,7 @@
  */
 
   
-function isPrime() {
-    let n = 1;
-
-    if (n <2) return false; 
-    
-    
-    let i = 2;
-    while(i <n){
-        if( n%i==0 ) {
-            return true;
-            break; 
-        }
-        i++;
-    }
-
-    return false;
-}
-
-
-
- console.log(isPrime(6));
- console.log(isPrime(21));
- console.log(isPrime(33));
- console.log(isPrime(17));
+function isPrime() {}
   
 
  /**
@@ -44,11 +21,11 @@ function isPrime() {
   */
  function sumOfPrimes(n) {
     
-  let sum = 0;
-  for (let i = 0; i < n.length; i++){
-      sum += n*i;
+  
+  for (let i = 1; i < n.length; i++){
+      return  n*i;
   }
-  return sum;
+  
 }
    
     console.log(sumOfPrimes(1,100));
@@ -67,22 +44,21 @@ function isPrime() {
   * @return {number} Số Fibonacci thứ `n`
   */
  function fibonacci(n) {
-    let f0 = 0;
-    let f1 = 1;
-    let fn = 1;
-     if (n == 0 || n == 1) {
-        return n;
-    } else {
-        for (let i = 1; i < n; i++) {
-            f0 = f1;
-            f1 = fn;
-            fn = f0 + f1;
-        }
+    let a = 0;
+        b = 1;
+        c;
+     if ( n == 1) return a;
+        
+        if ( n == 2) return b;
+    for(let i = 1; i <= n - 2; i++) {
+        c = a + b;
+        a = b;
+        b = c;
     }
-    return fn;
+    return c;
+
 }
-console.log(fibonacci(5));
-console.log(fibonacci(13));
+
 
  /**
   * Tính giai thừa của một số nguyên bất kỳ
@@ -94,14 +70,13 @@ console.log(fibonacci(13));
   * @return {number} Giai thừa của `n`
   */
  function factorial(n) {
-    if (n === 0)
- {
-    return 1;
+let result = 1;
+
+ for (let i = 2; i <= n; i++ ) result *=i;
+
+ return result;
  }
-  return n * factorial(n-1);
-           
- }
- console.log(factorial(6));
+ console.log(factorial(5));
  console.log(factorial(16));
  console.log(factorial(26));
 
@@ -117,13 +92,31 @@ console.log(fibonacci(13));
   * @return {boolean} Số `n` có phải là số Strong hay không
   */
  function isStrong(n) {
-   
-    if (n > 0 && n % 1 == 0){
-        return true ;
-     }
-     return false ;
+  let temp = n;
+  let sum =0;
+
+  while (temp > 0){
+    let reminder = temp %10;
+
+    sum +=factorial(n / reminder);
+
+    temp =(temp - reminder) /10;
+  }
+  return sum ===n;
       }
-    console.log(isStrong(145)); 
-    console.log(isStrong(1.2)); 
-    console.log(isStrong(3)); 
-    console.log(isStrong(0));
+    console.log(isStrong(23)); 
+    
+ function printrow (col){ 
+    let str = "";
+    for (let i =1; i< col; i++){
+        str += "*"
+    }
+    str += "*"
+    console.log( str);
+    }
+    function table (row,col){
+        for(let i=1; i<= row; i++ ){
+            printrow(col);
+        }
+    }
+    table(5,5);
