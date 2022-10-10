@@ -178,10 +178,10 @@ function sumAll(arr){
 }
 console.log(sumAll(arr));
 
-arr.includes(3);
-arr.indexOf (5);
-arr.slice(1,4);
-arr.push(21); // 7 (new lenght) - thêm vào chuỗi 
+arr.includes(3);// true
+arr.indexOf (5);// 7
+arr.slice(1,4);// [3,4,5]
+arr.push(21); // 7 (new lenght) - thêm vào cuối
 arr.unshift(9); // thêm vào đầu - 8 (new lenhgt)
 arr.pop();//21- xoa sở đầu
 arr.shift(); //9- xoa sở cuối
@@ -189,3 +189,12 @@ arr.reverse(); // đảo ngược lại
 arr.concat([1,2,3]) // trả về mảng mới
 arr.join("-"); // " 2-10-9-5-3-4"
 
+[].forEach();
+[].find();
+[].findIndex();
+[].map();
+[].filter();
+[].reduce();
+[].some();
+[].every();
+[].sort();

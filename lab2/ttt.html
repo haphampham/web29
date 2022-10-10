@@ -7,26 +7,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="ttt.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="https://fullstack.edu.vn/static/media/f8-icon.18cd71cfcfa33566a22b.png">
+    <title>the band</title>
     
 </head>
 <body>
+
   <div class="mand">
     <div class="heard">
     <div id="nav">
-        <li><a href="">Quần Aó</a></li>
-        <li><a href="">Giầy Dép</a></li>
-        <li><a href="">Trang Sức</a></li>
-        <li><a href="">Túi</a></li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#band">BAND</a></li>
+        <li><a href="#tour">TUOR</a></li>
+        <li><a href="#contact">CONTACT</a></li>
         <li>
             <a href="">
-                Vật Dụng
+                MORE
                 <i class="bi bi-caret-down-fill"></i>
             </a>
             <ul class="subnav">
-                <li><a href="">búa</a></li>
-                <li><a href="">kéo</a></li>
-                <li><a href="">dao</a></li>
+                <li><a href="#">búa</a></li>
+                <li><a href="#">kéo</a></li>
+                <li><a href="#">dao</a></li>
             </ul>
         </li>
     </div>
@@ -43,33 +46,34 @@
      </div>
  
      <div class="container">
-         <div class="content-section">
+         <div id="band" class="content-section">
             <h2 class="section-headding">THE BAND</h2>
              <p class="section-sub-headding">We love music</p>
              <p class="about-text">
                 We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div class="tem-list">
-                <div class="tem-item">
+            <div class=" row tem-list">
+                <div class="col col-third text-center">
                     <p class="tem-name">Name</p>
                     <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="tem-img">
                 </div>
 
-                <div class="tem-item">
+                <div class="col col-third text-center">
                     <p class="tem-name">Name</p>
                     <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="tem-img">
                 </div>
 
-                <div class="tem-item">
+                <div class="col col-third text-center">
                     <p class="tem-name">Name</p>
                     <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="tem-img">
                 </div>
-                <div class="clear"></div>
+            
          </div>
             </div>
+     
             
             <div class="tour">
-                <div class="content-section">
+                <div id="tour" class="content-section">
                     <h2 class="section-headding text-white">TOUR DATES</h2>
                      <p class="section-sub-headding text-white">Remember to book your tickets!
     
@@ -80,66 +84,98 @@
                     <li>November <span class="so">3</span></li>
                   </ul>
                 <div class="row play-list"> 
-                    <div class=" col play-item">
+                    <div class=" col col-third">
                         <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="New York" class="play-img">
                       <div class="play-body">
                        <h3 class="play-headding">New York</h3>
                        <p class="play-tame">Fri 27 Nov 2016</p>
                        <p class="play-decse">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                       <a href=""class="play-buy-btn">Buy Tickets</a>
+                       <a href=""class="play-buy-btn js-buy-ticket">Buy Tickets</a>
                       </div>
                     </div>
 
-                    <div class=" col play-item">
+                    <div class=" col col-third">
                         <img src="https://www.w3schools.com/w3images/paris.jpg" alt="Paris" class="play-img">
                       <div class="play-body">
                        <h3 class="play-headding">Paris</h3>
                        <p class="play-tame">Sat 28 Nov 2016</p>
                        <p class="play-decse">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                       <a href=""class="play-buy-btn">Buy Tickets</a>
+                       <a href=""class="play-buy-btn js-buy-ticket">Buy Tickets</a>
                       </div>
                     </div>
 
-                    <div class=" col play-item">
+                    <div class=" col col-third">
                         <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="San Francisco" class="play-img">
                       <div class="play-body">
                        <h3 class="play-headding">San Francisco</h3>
                        <p class="play-tame">Sun 29 Nov 2016</p>
                        <p class="play-decse">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                       <a href=""class="play-buy-btn">Buy Tickets</a>
+                       <a href=""class="play-buy-btn js-buy-ticket">Buy Tickets</a>
                       </div>
                     </div>
-                    <div class="clear"></div>
+                
                 </div>
                    
                  </div>
             </div>
-              
-            <div class="content-section">
+<!-- begin:contet-section -->
+            <div id="contact" class="content-section">
                 <h2 class="section-headding">CONTACT</h2>
                  <p class="section-sub-headding">Fan? Drop a note!</p>
                 
+        <div class="row concact-conten">
+            <div class="col col-half infor">
+                <p><i class="bi bi-geo-alt"></i>Chicago, US</p>
+                <p><i class="bi bi-phone-fill"></i>Phone: +00 151515</p>
+                <p><i class="">Email: mail@mail.com</p>
+                
+            </div>
+            <div class="col col-half nutifrom">
+                <form action="">
+                    <div class="row">
+                        <div class="col col-half">
+                            <input type="text" name="" placeholder= "Name" required id="" class="from-control">
+                        </div>
+                        <div class="col col-half">
+                            <input type="email" name="" placeholder= "Email" required  id="" class="from-control">
+                        </div>
+                       
+                    </div>
+                    <div class="row mt-8">
+                        <div class="col col-full">
+                            <input type="text" name="" placeholder= "Message" required id="" class="from-control">
+                        </div>
+                    </div>
+                    <input class="from-submit-btn mt-16" type="submit"value="SEND">
+                </form>
 
+            </div>
+        </div>
 
                 </div>
+                  
+<!--end:contet-section -->
+   <div class="map-section ">
+    <img src="https://www.w3schools.com/w3images/map.jpg" alt="map">
+   </div>
+   <div class="footer">
+    <div class="social">
+       <a href=""><i class="bi bi-facebook"></i></a>
+       <a href=""><i class="bi bi-instagram"></i></a>
+       <a href=""><i class="bi bi-youtube"></i></a>
+       <a href=""><i class="bi bi-pinterest"></i></a>
+       <a href=""><i class="bi bi-twitter"></i></a>
+       <a href=""><i class="bi bi-linkedin"></i></a>
+    </div>
+    <p class="copyright">Powered by <a href="">w3.css</a></p>
+    </div>
+   
+ </div>
 
      </div>
-
-      
-
-       
-        
-
- 
-
-
-     <div class="footer">
- 
-     </div>
-
-  </div>
-
-   <!-- <div class="modal">
+    
+    
+     <div class="modal">
     <div class="modal-conter">
         <div class="modal-close">
             <i class="bi bi-x-lg"></i>
@@ -172,8 +208,24 @@
             <p class="modal-help">Need<a href="">help?</a></p>
         </footer>
     </div>
-   </div> -->
+   </div> 
 
+
+
+ 
+ <script>
+    const buyBtns = document.querySelectorAll('.js-buy-ticket')
+    const modal = document.querySelector('.modal')
+    
+      function showBuyTicket(){
+        modal.classList.add('open')
+      }
+
+      for( const buyBtn of buyBtns){
+         buyBtn.addEventListener('click', showBuyTicket)
+      }
+
+ </script>  
  
 </body>
 </html>
