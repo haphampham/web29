@@ -105,9 +105,18 @@ console.log(intersection([1,2,3,4,5,6],[2,3,4,5,]));
   * @return {number[]} Mảng chứa các số chỉ xuất hiện ở 1 trong 2 mảng
   */
  function difference(arr1, arr2) {
+    let result = [];
 
+    for (let value of arr1) {
+      if (arr2.indexOf(value) === -1) result.push(value);
+    }
+    for (let value of arr2) {
+      if (arr1.indexOf(value) === -1) result.push(value);
+    }
+  
+    return result;
  }
- 
+ console.log(difference([1,2,3,4,5,6],[2,3,4,5,]));
  /**
   * Loại bỏ các số trùng lặp trong mảng, chỉ giữ lại các số duy nhất
   *

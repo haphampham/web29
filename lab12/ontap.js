@@ -107,29 +107,29 @@ let products = [
 // Tên - Giá - Thương Hiệu - Số lượng
 // Ví dụ : OPPO Find X3 Pro - 19500000 - OPPO - 3
 
+let info = products.map((product) => {
+  return `${product.name} - ${product.price} - ${product.brand} - ${product.count}`;
+});
+console.log(info);
+
 // 2. Tính tổng tiền tất cả sản phẩm trong giỏ hàng
 // Tổng tiền mỗi sản phẩm = price * count
-
-// 3. Tìm các sản phẩm của thuơng hiệu "Apple"
-
-// 4. Tìm các sản phẩm có giá > 20000000
-
-// 5. Tìm các sản phẩm có chữ "pro" trong tên (Không phân biệt hoa thường)
-// Ex1
-
-//Ex 2
-let costTotal = products.reduce(function(sum, prd){
-    return sum + prd.price * prd.count;
+let sum = products.reduce((sum, value) => {
+  return (sum += value.price * value.count);
 }, 0);
-
-console.log('Tong tien tat ca cac san pham', costTotal)
-//Ex 3
-let prdApple = products.filter(function(prd){
-    return prd.brand === 'Apple';
+console.log(sum);
+// 3. Tìm các sản phẩm của thuơng hiệu "Apple"
+let findApple = products.filter((product) => {
+  return product.brand.toLowerCase().includes("apple");
+}, []);
+console.log(findApple);
+// 4. Tìm các sản phẩm có giá > 20000000
+let findBigger20 = products.filter((product) => {
+  return product.price > 20000000;
+}, []);
+console.log(findBigger20);
+// 5. Tìm các sản phẩm có chữ "pro" trong tên (Không phân biệt hoa thường)
+let findPro = products.filter((product) => {
+  return product.name.toLowerCase().includes("pro");
 });
-
-console.log(prdApple);
-
-console.log(products.filter(function(a){
-    return a.price > 20000000;
-}));
+console.log(findPro);
