@@ -190,54 +190,81 @@ secondLargest(mu);
  /**
   * @typedef {object} studentWithFullname
   */
- 
+  const students = [
+    {
+        id:1,
+        firstname:"ba",
+        lastname:"phạm",
+        gender:"m",
+        point: "2",
+    },
+    {
+        id:2,
+        firstname:"Hà",
+        lastname:"phạm",
+        gender:"mi",
+        point: "9",
+    },
+    {
+        id:3,
+        firstname:"baỏ",
+        lastname:"trần",
+        gender:"a",
+        point: "3",
+    },
+    {
+        id:4,
+        firstname:"tâm",
+        lastname:"phạm",
+        gender:"ma",
+        point: "2.5",
+    },
+];
  /**
   *
   * @param {student[]} students - Danh sách sinh viên
   *
   * @return {student[]}
   */
- function fullname(students) {
-   
-   
-let studentList = [
-    {
-        id:"121209",
-        firstname: "Mai",
-        lastname:"lá",
-        gender:"nữ",
-        point:"8.5",
-    },{
-        id:"121219",
-        firstname: "Trần",
-        lastname:"Bưởi",
-        gender:"nữ",
-        point:"7.5",
-    }
-    ,{
-        id:"121209",
-        firstname: "Mai",
-        lastname:"BÌNH",
-        gender:"nam",
-        point:"6.5",
-    },{
-        id:"121200",
-        firstname: "Nguyễn",
-        lastname:"cảnh",
-        gender:"nam",
-        point:"8.5",
-    },{
-        id:"121321",
-        firstname: "phạm",
-        lastname:"lan",
-        gender:"nữ",
-        point:"10.0",
-    },
-]
-for(let i = 0; i <studentList; i++){
-    if( studentList[i].id + "|" + studentList[i].firstname + "|" 
-    + studentList[i].lastname + "|" + studentList[i].gender+"|" + studentList[i].point);
+function mapFullname(student){
+    return{
+        id: student.id,
+        fullname: student.firstname.concat(" ", student.lastname),
+        gender : student.gender,
+        point: student.point,
+    };
 }
- return studentList;
+ const studentWithFullname = students.map(mapFullname);
+ console.log(studentWithFullname);
+
+// sắp xếp theo điiểm (point) giảm dần
+function compareByPoint(student1, student2){
+    return student1.point -student2.point; 
 }
-console.log(students("id"));
+students.sort(compareByPoint).reverse();
+console.log(students);
+
+function compareByFullname(student1,student2){
+    return (
+        student1.firstname.concat(" ", student1.lastname).length-
+        student2.firstname.concat(" ",student2.lastname).length
+    );
+}
+students.sort(compareByFullname);
+console.log(students);
+
+// lọc ra các học sinh có điểm trong khoảng 2-8
+function isBetween5anh8(student){
+    return student.point >=2 && student.point<=8;
+}
+let studentsGood = students.filter(isBetween5anh8);
+console.log(studentsGood);
+
+// tính điểm tb  của các học viên, tính gộp điểm, chia cho số lượng
+
+function sumPoint(total,student){
+    return total + student.point;
+}
+const total = students.reduce(sumPoint,0);
+const avg = total / students.length;
+console.log(avg);
