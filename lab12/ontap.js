@@ -133,3 +133,15 @@ let findPro = products.filter((product) => {
   return product.name.toLowerCase().includes("pro");
 });
 console.log(findPro);
+
+
+const tfoot = 
+    "<tfoot>"+
+    "<tr>"+
+    "<td colspan="4">Total</td>" +
+    " <td>"+
+     costTotal +
+    "</td>"+
+    "</tr>"+
+    "</tfoot>";
+    const productHTML = products.map(function)
