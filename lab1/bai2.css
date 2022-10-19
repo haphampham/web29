@@ -1,0 +1,89 @@
+:root{
+    --prinary-color:#f2726a;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.chung1{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 10px;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(45deg,#00853e,#50c878);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+.card{
+    background: #242628;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    object-position: center;
+    text-align: center;
+    overflow: hidden;
+  
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.card_img{
+    height: 120px;
+    width: 120px;
+    border: 4px solid var(--prinary-color);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    transform: translateY(25px);
+    transition: 0.5s;
+    
+}
+.card h2{
+    margin-top: 30px;
+}
+.card p{
+    color: var(--prinary-color);
+}
+.card_social{
+    margin: 25px 0;
+}
+.card_social a{
+  color: white;
+  margin: 25px 20px;
+  font-size: 20px;
+}
+.card_social a:hover{
+    background: #f2726a;
+    cursor:grab;
+}
+.card button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid var(--prinary-color);
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    transition: 0.5;
+    margin-top: 25px;
+}
+.card button:hover{
+    background: #f2726a;
+    cursor:grab;
+}
+.card_img:hover{
+    width: 100%;
+    height: 100%;
+    border-radius: unset;
+    transform: unset;
+    border: none;
+
+}
