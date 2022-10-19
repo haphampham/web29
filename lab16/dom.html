@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fruit List</title>
+        <style>
+            img {
+                max-width: 100%;
+                vertical-align: middle;
+            }
+
+            .container {
+                max-width: 900px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .product-list {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+
+            .product {
+                flex-basis: 210px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="app"></div>
+         <select name="city" id="city"> </select>
+        <p>Todo list</p>
+            <div class="todo-list">
+                <div class="todo-item completed">
+                    <input type="checkbox" checked /> Học HTML
+                </div>
+                <div class="todo-item">
+                    <input type="checkbox" /> Học JavaScript
+                </div>
+            </div>
+
+
+            <section id="products">
+                <div class="container">
+                    <div class="product-list">
+                   <div class="product">
+                            <div class="product-thumbnail">
+                                <img
+                                    src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                                    alt="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
+                                />
+                            </div>
+    
+                            <div class="product-description">
+                                <h3 class="product-title">
+
+                                 <a href="product.html?producId"> Fjallraven - Foldsack No. 1 Backpack, Fits 15
+                                    Laptops</a>  
+                                </h3>
+                                <div class="product-price">$109.95</div>
+                            </div>
+    
+                            <div class="product-category">men's clothing</div>
+                        </div>
+                    </div>     
+                </div>
+            </section>
+            <ul id="fruit-list"></ul>
+        <script src="dom.js"></script>
+
+    </body>
+</html>
