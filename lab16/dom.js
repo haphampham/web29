@@ -55,16 +55,39 @@ const todos = [
       content: "Learning JavaScript"
     }
   ];
-  document.querySelector(".todo-list").innerHTML = 
-  todos.map(function(thing){
-    return thing.completed
-     ? `<div class="todo-item completed">
-         <input type="checkbox" checked />${thing.content}</div>`
+//   document.querySelector(".todo-list").innerHTML = 
+//   todos.map(function(thing){
+//     return thing.completed
+//      ? `<div class="todo-item completed">
+//          <input type="checkbox" checked />${thing.content}</div>`
     
-     : `<div class="todo-item"><input type="checkbox" />${thing.content}</div>`;
-   } )
-  .join("");
+//      : `<div class="todo-item"><input type="checkbox" />${thing.content}</div>`;
+//    } )
+//   .join("");
   
+function createTodoItem (todo){
+    const li = document.createElement("li");
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    if (todo.completed){
+        li.classList.add("completed");
+        checkbox.checked = true;
+    }
+    li.append(checkbox, todo.content);
+    return li;
+}
+
+for (let item of todos){
+    const li = createTodoItem(item);
+
+    document.querySelector("todo-list").append(li);
+}
+
+
+
+
+
 
   const products = [
     {
