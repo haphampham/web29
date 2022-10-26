@@ -4,6 +4,7 @@
 // xóa 1 công việc
 // xóa tất cả công việc
 // lọc theo trạng thái
+const todolist 
 function createId() {
     let id = Math.floor(Math.random() * 10000);
     return id;
@@ -26,4 +27,23 @@ let todos = [
         status: true
     },
 ];
+function  createToItem(todo){
+    const div = document.createElement("div");
+    div.className = todo.status? "todo-item comleted": "todo-item";
 
+    const checkbox = document.createElement("input");
+    checkbox.type
+
+
+
+    
+}
+
+function render (){
+    todos.forEach(function(todo){
+        const item =  createElement(todo);
+        todolist.pre
+    })
+}
+       
+   

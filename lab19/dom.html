@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<style>
+    .caruose{
+        min-width: 600px;
+        overflow: hidden;
+        position: relative;
+    }
+    .caruose-inner{
+        width: max-content;
+        transition: all 1;
+        
+    }
+    .caruose-item{
+        width: 600px;
+        height: 300px;
+        background-color: antiquewhite;
+        float: left;
+    }
+    .caruose-next{
+        position: absolute;
+        top: 50%;
+        right: 10px;
+    }
+    .caruose-prev{
+        position: absolute;
+        top: 50%;
+        left: 10px;
+    }
+</style>
+<body>
+
+      <div class="caruose">
+        <div class="caruose-inner">
+          <div class="caruose-item">1</div>
+          <div class="caruose-item">2</div>
+          <div class="caruose-item">3</div>
+          <div class="caruose-item">4</div>
+          <div class="caruose-item">5</div>
+        </div>
+        <button class="caruose-prev">Prev</button>
+        <button class="caruose-next">Next</button>
+      </div>
+
+
+
+    <script src="dom.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: orchid;
+    overflow: hidden;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+}
+.container h1{
+    text-align: center;
+}
