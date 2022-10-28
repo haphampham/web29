@@ -5,17 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="1.css">
+   <style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+    }
+    .clock{
+        position: relative;
+         width: 140px;
+        height: 140px;
+        border: 3px solid black;
+       border-radius: 58%; 
+       margin-top: 100px;
+    }
+    .hour
+    .minute
+    .second{
+        position: absolute;
+       
+    }
+    .dot{
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        border: 1px solid black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-2.5px, -2.5px) ;
+    }
+    .hour{
+   width: 50px;
+   height: 3px;
+   top: 50%;
+   left: 50%;
+   transform-origin: 0 1.5px;
+   transform: translate(-1.5px,-1.5px);
+   border-radius: 2px;
+   background-color: black;
+    }
+    .minute{
+      width: 75px;
+      height: 2px;
+      border-radius: 2px;
+      top: 50%;
+      left: 50%;
+
+   background-color: black;
+
+    }
+    .second{
+     width: 1px;
+     height: 1px;
+     top: 50%;
+     left: 50%;
+     border-radius: 2px;
+     background-color: black;
+    }
+   </style>
+
 </head>
 <body>
-    <div class="container">
-		<br>
-		<h1 class="nyt">Demo: Đồng hồ</h1>
-		<br>
-		<div class="nytt">
-			<canvas id="canvas" width="350" height="350" style="background-color:#333"></canvas>
-		</div>
-	</div>
+     <div class="container">
+        <div class="clock">
+            <div class="hour"></div>
+            <div class="minute"></div>
+            <div class="second"></div>
+
+            <div class="dot"></div>
+        </div>
+        
+	</div> 
+   
+
     <script src="1.js"></script>
 </body>
 </html>

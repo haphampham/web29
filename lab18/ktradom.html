@@ -5,57 +5,66 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>Document</title>
+            <link rel="stylesheet" href="ktradom.css">
         </head>
         <body>
-            <h1>Todo App</h1>
-    
-          
-            <form action="">
+                
+                <div class="chung">
+            <form action="" name="create">
+                <h1 class="todoa" >Todo App</h1>
                 <div class="input-group">
-                    <input type="text" />
+                    <input type="text" name="title" />
                     <button class="btn-add">Thêm công việc mới</button>
-                </div>
-    
-                <div class="filter">
-                    <div class="filter-item">
-                        <input type="radio" name="filter" id="all" />
-                        <label for="all">All</label>
-                    </div>
-    
-                    <div class="filter-item">
-                        <input type="radio" name="filter" id="active" />
-                        <label for="all">Active</label>
-                    </div>
-    
-                    <div class="filter-item">
-                        <input type="radio" name="filter" id="completed" />
-                        <label for="all">Completed</label>
-                    </div>
                 </div>
             </form>
     
-            <div class="todo-list">
-                <div class="todos">
-                    <div class="todo-item">
-                        <input type="checkbox" />
-                        <span class="ontent">Học JavaScript</span>
-                        <button class="btn-delete">Xóa</button>
-                    </div>
-    
-                    <div class="todo-item">
-                        <input type="checkbox" />
-                        <span class="ontent">Học JavaScript</span>
-                        <button class="btn-delete">Xóa</button>
-                    </div>
+           <div class="filter">
+          
+                <div class="filter-item">
+                    <input
+                        type="radio"
+                        name="filter"
+                        id="all"
+                        value="all"
+                        checked
+                    />
+                    <label for="all">All</label>
                 </div>
     
+                <div class="filter-item">
+                    <input type="radio" name="filter" id="active" value="active" />
+                    <label for="active">Active</label>
+                </div>
+    
+                <div class="filter-item">
+                    <input
+                        type="radio"
+                        name="filter"
+                        id="completed"
+                        value="completed"
+                    />
+                    <label for="completed">Completed</label>
+                </div>
+    
+           </div>
+    
+            <div class="todo-list is-empty">
+                <div class="todos"></div>
+    
                 <div class="summary">
-                    <div class="pending">Có 2 công việc cần làm</div>
+                    <div class="pending">
+                        Có <strong class="pending-value">0</strong> công việc cần
+                        làm
+                    </div>
     
                     <button class="btn-clear">Xóa hết</button>
                 </div>
+    
+                <div class="empty">Không có bất kỳ công việc nào</div>
             </div>
+            </div>
+    
         
-            <script src="ktradom.js"></script>
+            <script src="todo.js"></script>
         </body>
     </html>

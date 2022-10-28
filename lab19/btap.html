@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 300px;
+        }
+        .container{
+         display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+    .title{
+        margin-bottom: 0;
+    }
+    .box{
+        position: relative;
+    }
+    .heart{
+        animation:heart 8.5s linear 8s 1;
+    }
+    @keyframes heart {
+        from{
+            transform: translate(-50%, -50%) scale(0);
+            opacity:  1;
+        }
+        to {
+            transform: translate(-50%, -50%) scale(10);
+            opacity: 0;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">Danh Sách on the imga to ❤️❤️ it  </h3>
+        <p class="likes">you liekd <span class="tines">0</span>tines,</p>
+
+        <div class="box">
+            <img src="https://znews-photo.zingcdn.me/w660/Uploaded/qhj_yvobvhfwbv/2018_07_18/Nguyen_Huy_Binh1.jpg" alt="">
+        </div>
+    </div>
+    <script src="btap.js"></script>
+</body>
+</html>
