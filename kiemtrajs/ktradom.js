@@ -12,3 +12,4 @@ qtplus.onclick = function () {
     qt.innerHTML -= 1;
  };
  
+ 
