@@ -1,12 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="html.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shopping Cart</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                vertical-align: middle;
+            }
+
+            .container {
+                max-width: 900px;
+                margin: auto;
+            }
+
+            .cart,
+            .cart-item,
+            .product-info {
+                display: flex;
+            }
+
+            .cart-list {
+                flex: 70%;
+            }
+
+            .cart-item {
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .product-info {
+                gap: 20px;
+            }
+
+            .cart-summary {
+                flex: 30%;
+            }
+
+            .product-thumbnail {
+                max-width: 150px;
+            }
+
+            .btn {
+                padding: 5px 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 class="logo">Shopping Cart</h1>
+            </header>
+
+            <div class="main">
+                <div class="cart">
+                    <div class="cart-list"></div>
+
+                    <div class="cart-summary">
+                        <div class="total-price">
+                            Tổng tiền sản phẩm: <span class="price">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <template id="cart-item">
+            <div class="cart-item">
+                <div class="product-info">
+                    <div class="product-thumbnail">
+                        <img src="" alt="" />
+                    </div>
+
+                    <div class="product-detail">
+                        <h3 class="product-title"></h3>
+                        <div class="product-price"></div>
+                    </div>
+                </div>
+
+                <div class="product-quantity">
+                    <button class="btn btn-down">-</button>
+                    <span class="quantity"></span>
+                    <button class="btn btn-up">+</button>
+                </div>
+            </div>
+        </template>
+        <script src="html1.js"></script>
+        <script src="html2.js"></script>
+        <script src="html3.js"></script>
+        <script src="html4.js"></script>
+    </body>
 </html>

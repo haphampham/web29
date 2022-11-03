@@ -4,12 +4,28 @@ const qtminus = document.querySelector(".qt-minus");
 const qtplus = document.querySelector(".qt-plus");
 
 
-qtplus.onclick = function () {
-    qt.innerHTML = Number(qt.innerHTML) + 1;
- };
+function increase(item, el) {
+   const cartItem = cart.find(function (cartItem) {
+       return cartItem.product === item.product.id;
+   });
 
- qtminus.onclick = function () {
-    qt.innerHTML -= 1;
- };
+   cartItem.quantity += 1;
+   el.querySelector(".qt").innerText = cartItem.quantity;
+
+   updateTotalBill();
+}
+
+function decrease(item, el) {
+   const cartItem = cart.find(function (cartItem) {
+       return cartItem.product === item.product.id;
+   });
+
+   if (cartItem.quantity > 1) {
+       cartItem.quantity -= 1;
+       el.querySelector(".qt").innerText = cartItem.quantity;
+
+       updateTotalBill();
+   }
+}
  
  

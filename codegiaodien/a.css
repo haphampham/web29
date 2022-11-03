@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: bisque;
+}
+.flex{
+    display: flex;
+}
+.header{
+    height: 100px;
+    max-width: auto;
+    background-color: rgba(245, 245, 245, 0.864);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.anh{
+    position: relative;
+    
+}
+.chu{
+    position: absolute;
+    top: 0;
+}
+ 
+ .bibi{
+    font-size: 30px;
+    gap: 22px;
+    margin-right: 400px;
+   
+} 
+
+.bachung{
+  margin-right: 100px;
+    gap: 20px;
+} 
+.bacon1{
+  gap: 10px;
+}
+.call{
+
+    font-size: 20px;
+    color: greenyellow;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.nhat{
+    color: gray;
+}
+.pp{
+    font-size: 12px;
+}
+.bip{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.abua-menu{
+    width: 960px;
+    margin-left: auto;
+    display: flex;
+    padding-left: 53px;
+}
+.menu{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 126px;
+}
+.menu-item {
+    padding-bottom: 10px;
+    margin-left: 25px;
+}
+li{
+    color: rgba(0, 0, 0, 0.685);
+    padding: 10px;
+    display: list-item;
+    
+}
+
+ul {
+    list-style: none;
+   
+}
+.icon{
+    margin-left: 460px;
+}
+button {
+    border: 0;
+    margin-top: 28px;
+    margin-left: 10px;
+    
+}
+.size {
+    font-size: 20px;
+    padding: 10px;
+}
+i {
+    font-style: italic;
+}
+.chu{
+   color: white;
+   margin-top: 200px;
+    margin-left: 165px;
+    gap: 10px;
+}
+.a{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.c{
+    font-size: 20px;
+    display: block;
+    margin-top: 15px;
+}
+.button{
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    background: greenyellow;
+    transition: 0.5;
+    margin-top: 50px
+}
+ .h2{
+    font-size: 65px;
+    font-family: cursive;
+}
+.boder2{
+    position: absolute;
+    margin-top: -62px;
+    text-align: center;
+    margin-left: 247px;
+    
+}
+.bachun{
+    gap: 60px;
+}
+.bacon2{
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(114, 106, 106);
+    background-color: beige;
+    
+}
+.red{
+    color: rgb(209, 209, 84);
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 25px;
+}
+.h{
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 5px;
+}
+.but{
+    height: 60px;
+    width: 60px;
+    background: greenyellow;
+    margin-top: 30px;
+    font-size: 45px;
+}
