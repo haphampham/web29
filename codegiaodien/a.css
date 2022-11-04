@@ -4,9 +4,14 @@
     margin: 0;
 
 }
-body{
-    background-color: bisque;
+
+
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
+
 .flex{
     display: flex;
 }
@@ -19,6 +24,10 @@ body{
     text-align: center;
 
 }
+.logo{
+    width: 350px;
+    height: 350px;
+}
 .anh{
     position: relative;
     
@@ -29,22 +38,21 @@ body{
 }
  
  .bibi{
-    font-size: 30px;
     gap: 22px;
-    margin-right: 400px;
+    margin-right: 160px;
    
 } 
 
 .bachung{
   margin-right: 100px;
-    gap: 20px;
+    gap: 40px;
 } 
 .bacon1{
   gap: 10px;
 }
 .call{
-
-    font-size: 20px;
+    margin-top: 8px;
+    font-size: 22px;
     color: greenyellow;
     display: flex;
     flex-wrap: nowrap;
@@ -55,18 +63,24 @@ body{
 }
 .pp{
     font-size: 12px;
+    font-family: cursive;
+    color: #c07b1fd1;
 }
 .bip{
     border: 1px solid black;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
+}
+.abua{
+    background-color: antiquewhite;
 }
 .abua-menu{
     width: 960px;
     margin-left: auto;
     display: flex;
     padding-left: 53px;
+
 }
 .menu{
     display: flex;
@@ -168,4 +182,508 @@ i {
     background: greenyellow;
     margin-top: 30px;
     font-size: 45px;
+}
+.foot{
+    background-color: azure;
+   
+}
+
+.im{
+    height: 360px;
+    width: 360px;
+    border: 1px solid none;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    transform: translateY(25px);
+    transition: 0.5s;
+    margin-top: 175px;
+    margin-left: 195px;
+}
+.mi{
+    height: 120px;
+    width: 120px;
+    border: 5px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    transform: translateY(25px);
+    transition: 0.5s;
+    margin-top: -107px;
+    margin-left: 179px;
+}
+.card-chu{
+    margin-top: 222px;
+    margin-left: 40px;
+}
+.dam{
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 20px;
+}
+.h11{
+    font-family: sans-serif;
+    font-size: 39px;
+    margin-top: 4px;
+}
+.h44{
+    color: greenyellow;
+    font-size: 19px;
+    margin-top: 20px;
+}
+ .p1{
+    font-size: 15px;
+    font-family: monospace;
+    margin-top: 20px;
+    color: #410e0e59;
+ }
+ .helo{
+    gap: 130px;
+    margin-top: 25px;
+ }
+ .flec{
+    gap: 10px;
+ }
+ .iiocc{
+    font-size: 35px;
+    color: #c88934f0;
+ }
+ .h22{
+    font-size: 18px;
+    font-family: inherit;
+ }
+ .hjhj{
+    margin-top: 25px;
+ }
+ .hj-item{
+    gap: 10px;
+    margin-top: 10px;
+ }
+ .lio{
+    height: 17px;
+    width: 17px;
+    border: 1px solid;
+    border-radius: 50%;
+    background: greenyellow;
+ }
+ .loi{
+    font-family: cursive;
+    font-size: 14px;
+ }
+ .discover{
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 7px;
+    background: #81b03ad1;
+ }
+ .foot11 
+ {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.pp{
+    font-size: 15px;
+    font-family: cursive;
+    color: #c07b1fd1;
+}
+.hhh{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.box{
+    justify-content: center;
+    margin-top: 20px;
+    gap: 25px;
+}
+ .box-it{
+    object-fit: cover;
+   position: relative;
+    height: 250px;
+    width: 240px;
+   
+ }
+ .assss{
+    position: absolute;
+ }
+ .putin{
+
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    background: bisque;
+    font-size: 30px;
+    margin-left: 94px;
+    margin-top: -50px;
+ }
+ .cvcvc{
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 129px;
+   
+    border-radius: 15px;
+    overflow: hidden;
+    background: #edede9bf;
+    margin-top: -27px;
+    margin-left: 50px;
+    font-size: 19px;
+ }
+ .foot12{
+    margin-top: 60px;
+   
+ }
+ .dia{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+ }
+ .elemn{
+  position: absolute;
+  margin-top: -300px;
+ }
+ .lao{
+    margin-left: 131px;
+    font-size: 50px;
+    color: white;
+ }
+ .baiai{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 75px;
+    background: white;
+    margin-left: 464px
+ }
+ .nai{
+    margin-left: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: rgb(147, 102, 47);
+ }
+ .foot13{
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+ }
+ .box1{
+    
+    justify-content: center;
+    margin-top: 20px;
+    gap: 25px;
+   
+   
+}
+ .box1-it{
+    object-fit: cover;
+    height: 250px;
+    width: 240px;
+   position: relative;
+   
+ }
+ .cvcvci1{
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    font-family: monospace;
+    margin-left: 12px;
+ }
+ .foot14{
+    justify-content: center;
+    margin-top: 100px;
+    background: #f5deb342;
+    
+ }
+ .footchu{
+    margin-right: 40px;
+    margin-top: 30px;
+ }
+ .imas{
+    height: 140px;
+    width: 140px;
+    border: 5px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    transform: translateY(25px);
+    transition: 0.5s;
+    margin-top: -15px;
+    margin-left: 21px;
+   
+ }
+ .lp{
+    font-size: 15px;
+    font-family: cursive;
+    color: #c07b1fd1;
+ }
+ .l11{
+    font-size: 33px;
+    margin-top: 11px;
+    font-family: inherit;
+ }
+ .llp{
+    font-size: 15px;
+    color: #531457b0;
+    margin-top: 10px;
+ }
+ .tonton{
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 7px;
+    background: #008000a6;
+ }
+ .nuttun{
+    margin-left: 100px;
+    margin-top: 25px;
+ }
+ .paipa{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-top: 6px;
+    background: wheat;
+ }
+ .duioi{
+    height: 170px;
+    width: 560px;
+    background:white;
+ }
+ .duio{
+    height: 170px;
+    width: 560px;
+    background:white;
+    margin-top: 10px;
+ }
+ .klop{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: ui-sans-serif;
+   color:  #bcafaf;
+ }
+.chiahai{
+    font-size: 15px;
+    gap: 50px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.haihaihai{
+   margin-top: 10px;
+}
+.iioo{
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+    font-size: 35px;
+    border-radius: 50%;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: -3px;
+    background: ghostwhite;
+}
+.foot15{
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+    background: #fff8dc45;
+}
+.anhfoot{
+    object-fit: cover;
+    height: 450px;
+    width: 320px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: relative;
+}
+.anhhai{
+    position: absolute;
+    height: 100px;
+    width: 140px;
+    margin-top: -130px;
+    color: white;
+    margin-left: 215px;
+    border: 1px solid;
+    background: #c6c623;
+    border-radius: 10px;
+    gap: 10px;
+}
+.looo{
+    font-size: 54px;
+   
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.totoo{
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 5px;
+}
+.chufoot{
+    margin-left: 55px;
+}
+.loplop{
+    margin-top: 12px;
+}
+.lkop{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    font-size: 27px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #21a121;
+    margin-top: 14px;
+}
+.l1op{
+    font-size: 25px;
+}
+.llpop{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #8d7a7a;
+}
+.lasd{
+    height: 30px;
+    width: 100px;
+    background: green;
+    border-radius: 10px;
+}
+.foot16{
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    background: #fff8dc45;
+}
+.anbhfoot{
+    justify-content: center;
+    gap: 35px;
+    margin-top: 10px;
+}
+.anbh{
+    object-fit: cover;
+    position: relative;
+    height: 250px;
+    width: 240px;
+}
+.ghij{
+    height: 35px;
+    width: 116px;
+    font-size: 18px;
+    font-family: cursive;
+    border: 1px solid;
+    border-radius: 10px;
+    background: #0d800ded;
+    margin-top: 230px;
+    position: absolute;
+    margin-left: -177px;
+}
+.vcnb{
+    margin-top: 25px;
+}
+.zxc{
+    gap: 10px;
+    margin-left: 35px;
+}
+.azcv{
+    margin-top: 5px;
+    font-family: math;
+}
+.anhnaa{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+.foot17{
+    justify-content: center;
+    margin-top: 30px;
+    background: black;
+    gap: 120px;
+}
+.fai{
+    color: white;
+    margin-top: 16px;
+}
+.vaicanho{
+    margin-top: 30px;
+}
+.vai{
+    gap: 5px;
+    margin-top: 10px;
+}
+.zaix{
+    color: white;
+    margin-top: 16px;
+}
+.mainn{
+    gap: 10px;
+    margin-top: 10px;
+}
+.jaiaia{
+    font-family: 'bootstrap-icons';
+    font-size: 18px;
+}
+.ak47{
+    color: yellow;
+    margin-top: 14px;
+}
+.bavc{
+    color: white;
+}
+.baova{
+    margin-top: 15px;
+}
+.calli{
+
+    font-size: 20px;
+    color: #fff92fc7;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.nhati{
+    color: gray;
+    font-size: 15px;
+}
+.ppi{
+    font-size: 12px;
+}
+.quaa{
+    margin-top: 15px;
+}
+.baconga{
+    gap: 10px;
+}
+.maybay{
+    height: 40px;
+    width: 220px;
+    border-radius: 11px;
+    overflow: hidden;
+}
+.pqwer{
+    font-size: 12px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+.iiiii{
+    font-size: 28px;
+    height: 42px;
+    width: 42px;
+    border: 1px solid;
+    background: green;;
+    margin-left: 71px;
+    color: white;
+  
 }
