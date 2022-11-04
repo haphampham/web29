@@ -4,8 +4,12 @@
     margin: 0;
 
 }
-body{
-    background-color: bisque;
+
+
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 .flex{
     display: flex;
@@ -62,11 +66,15 @@ body{
     height: 40px;
     width: 40px;
 }
+.abua{
+    background-color: antiquewhite;
+}
 .abua-menu{
     width: 960px;
     margin-left: auto;
     display: flex;
     padding-left: 53px;
+
 }
 .menu{
     display: flex;
@@ -169,3 +177,187 @@ i {
     margin-top: 30px;
     font-size: 45px;
 }
+.foot{
+    background-color: azure;
+   
+}
+
+.im{
+    height: 360px;
+    width: 360px;
+    border: 1px solid none;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    transform: translateY(25px);
+    transition: 0.5s;
+    margin-top: 175px;
+    margin-left: 195px;
+}
+.mi{
+    height: 120px;
+    width: 120px;
+    border: 5px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    transform: translateY(25px);
+    transition: 0.5s;
+    margin-top: -107px;
+    margin-left: 179px;
+}
+.card-chu{
+    margin-top: 222px;
+    margin-left: 40px;
+}
+.dam{
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 20px;
+}
+.h11{
+    font-family: sans-serif;
+    font-size: 39px;
+    margin-top: 4px;
+}
+.h44{
+    color: greenyellow;
+    font-size: 19px;
+    margin-top: 20px;
+}
+ .p1{
+    font-size: 15px;
+    font-family: monospace;
+    margin-top: 20px;
+    color: #410e0e59;
+ }
+ .helo{
+    gap: 130px;
+    margin-top: 25px;
+ }
+ .flec{
+    gap: 10px;
+ }
+ .iiocc{
+    font-size: 35px;
+    color: #c88934f0;
+ }
+ .h22{
+    font-size: 18px;
+    font-family: inherit;
+ }
+ .hjhj{
+    margin-top: 25px;
+ }
+ .hj-item{
+    gap: 10px;
+    margin-top: 10px;
+ }
+ .lio{
+    height: 17px;
+    width: 17px;
+    border: 1px solid;
+    border-radius: 50%;
+    background: greenyellow;
+ }
+ .loi{
+    font-family: cursive;
+    font-size: 14px;
+ }
+ .discover{
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 7px;
+    background: #81b03ad1;
+ }
+ .foot11{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.pp{
+    font-size: 15px;
+    font-family: cursive;
+    color: #c07b1fd1;
+}
+.hhh{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.box{
+    justify-content: center;
+    margin-top: 20px;
+    gap: 25px;
+}
+ .box-it{
+    object-fit: cover;
+   position: relative;
+    height: 250px;
+    width: 240px;
+   
+ }
+ .assss{
+    position: absolute;
+ }
+ .putin{
+
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    background: bisque;
+    font-size: 30px;
+    margin-left: 94px;
+    margin-top: -50px;
+ }
+ .cvcvc{
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 129px;
+   
+    border-radius: 15px;
+    overflow: hidden;
+    background: #edede9bf;
+    margin-top: -27px;
+    margin-left: 50px;
+    font-size: 19px;
+ }
+ .foot12{
+    margin-top: 60px;
+   
+ }
+ .dia{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+ }
+ .elemn{
+  position: absolute;
+  margin-top: -300px;
+ }
+ .lao{
+    margin-left: 131px;
+    font-size: 50px;
+    color: white;
+ }
+ .baiai{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 75px;
+    background: white;
+    margin-left: 464px
+ }
+ .nai{
+    margin-left: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: rgb(147, 102, 47);
+ }
