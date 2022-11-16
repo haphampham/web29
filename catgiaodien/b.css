@@ -1,0 +1,604 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+
+.logo{
+    height: 350px;
+    width: 400px;
+    position: relative;
+    margin-left: -80px;
+    margin-top: -115px;
+}
+.ltanh{
+    filter:brightness(50%);
+}
+.tren-item{
+    position: absolute;
+    margin-top: -24px;
+}
+.bibi{
+    gap: 15px;
+    margin-top: 48px;
+    margin-left: -70px;
+}
+.bip{
+    border: 1px solid rgb(26, 3, 3);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    color: #d9c6c6;
+    font-size: 16px;
+    background: none;
+}
+.menu{
+    display: flex;
+    margin-top: 39px;
+    margin-left: 60px;
+}
+.menu-item {
+    padding-bottom: 10px;
+    margin-left: 25px;
+    color: white;
+}
+li{
+    color: rgba(0, 0, 0, 0.685);
+    padding: 10px;
+    display: list-item;  
+}
+ul {
+    list-style: none; 
+}
+.icon{
+    margin-left: 197px;
+    margin-top: 45px;
+}
+.but{
+    margin-left: 10px;
+    gap: 15px;
+}
+.civ{
+    color: white;
+    font-size: 20px;
+
+}
+.bacon1{
+    gap: 15px;
+    margin-left: 50px;
+}
+.call{
+    border: 1px solid yellow;
+    font-size: 22px;
+    color: rgb(192 192 31);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: none;
+}
+.pp{
+    color: white;
+}
+.head-anh{
+    height: 700px;
+}
+.duoi{
+    position: absolute;
+    text-align: center;
+    margin-top: -420px;
+    margin-left: 525px;
+}
+.haa{
+    font-size: 45px;
+    font-family: cursive;
+    color: white;
+}
+.it{
+    color: yellow;
+}
+/* .nut-item{
+    margin-left: -124px;
+    margin-top: -160px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 35px;
+    background: darkgrey;
+} */
+
+.tonbut{
+    height: 36px;
+    width: 144px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background: green;
+    font-size: 16px;
+    margin-top: 65px;
+    color: white;
+}
+/* about */
+.about{
+    justify-content: center;
+    gap: 55px;
+    margin-top: 38px;
+}
+.imest{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+}
+.tem{
+    height: 200px;
+    width: 150px;
+}
+.temi2{
+    height: 300px;
+    width: 200px;
+    border-top-right-radius: 1px 50px 1px 1px;
+}
+.ab{
+    font-size: 18px;
+    font-family: monospace;
+    color: yellow;
+}
+.ac{
+    margin-top: 10px;
+    font-family: system-ui;
+}
+.ba{
+    margin-top: 10px;
+    font-family: inherit;
+    color: #6a6767e0;
+}
+.about-item1{
+    margin-top: 25px;
+    gap: 12px;
+}
+.item1{
+    margin-top: 9px;
+}
+.kist{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 21px;
+    margin-top: -58px;
+    margin-left: 60px;
+    color: white;
+    background: yellow;
+}
+.butt{
+    height: 40px;
+    width: 140px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background: green;
+    margin-top: 15px;
+
+}
+.itt{
+    color: #1f891f;
+}
+.tii{
+    margin-top: 5px;
+    font-family: inherit;
+    color: #6a6767e0;
+}
+.about2{
+    gap: 18px;
+}
+.h20{
+    font-size: 68px;
+    margin-left: 35px;
+    margin-top: 11px;
+}
+.cong{
+    font-size: 25px;
+    color: #28a128;
+    margin-top: 6px;
+}
+.chuaa{
+    font-size: 12px;
+    color: green;
+}
+.service{
+  justify-content: center;
+  margin-top: 50px;
+  background: #faebd759;
+}
+.service1{
+    text-align: center;
+    margin-top: 5px;
+}
+.ser{
+    font-family: cursive;
+    color: #a3a32bfc;
+}
+.hmot{
+    margin-top: 3px;
+    font-family: emoji;
+}
+.service2{
+    gap: 12px;
+    justify-content: center;
+    margin-top: 5px;
+}
+.service-item{
+    width: 300px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+}
+.am{
+    height: 250px;
+    width: 300px;
+    position: relative;
+}
+.baybi{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    font-size: 31px;
+    background: #ffff00bd;
+    border-radius: 8px;
+    margin-top: -148px;
+    margin-left: 230px;
+}
+.amchu{
+   margin-left: 30px;
+   margin-top: 26px;
+}
+.hatmot{
+    font-size: 23px;
+}
+.zas{
+    color: gray;
+    margin-top: 10px;
+}
+/* faqs */
+.faqs{
+    margin-top: 20px;
+    gap: 185px;
+    background: #faebd742;
+}
+.faqs1{
+    position: relative;
+}
+.a-item{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin-left: -145px;
+    margin-top: 75px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.kocoj{
+    height: 460px;
+    width: 400px;
+    background: #1f891f;
+}
+.icon1{
+    color: white;
+    font-size: 79px;
+    margin-top: 98px;
+    margin-left: 189px;
+}
+.icon2{
+    color: white;
+    font-size: 89px;
+    margin-top: 167px;
+}
+.icon3{
+    color: white;
+    font-size: 70px;
+    margin-top: -76px;
+    margin-left: 260px;
+}
+.faqs2{
+    margin-top: 78px;
+    margin-left: 21px;
+}
+.chu1-item{
+   margin-top: 15px;
+}
+.b-item{
+    position: absolute;
+    height: 60px;
+    width: 186px;
+    background: yellow;
+    margin-top: 315px;
+    margin-left: -86px;
+    border-radius: 10px;
+}
+.p-item{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+.h1-item{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.pp-item{
+    font-size: 14px;
+    font-family: cursive;
+    color: yellow;
+}
+.chu{
+    margin-top: 10px;
+}
+.i{
+    border: 1px solid black;
+    height: 35px;
+    width: 315px;
+    border-radius: 6px;
+    background: #80808040;
+    margin-left: 0px;
+    text-align: inherit;
+}
+.ibut{
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-left: -36px;
+    overflow: hidden;
+    background: rgb(61, 94, 11);
+    font-size: 20px;
+}
+.nanban{
+    margin-top: 10px;
+    color: gray;
+    font-size: 15px;
+    font-family: serif;
+}
+/* project */
+.project{
+    justify-content: center;
+    margin-top: 60px;
+}
+.project1{
+    gap: 75px;
+    justify-content: center;
+}
+.anna{
+    font-size: 15px;
+    font-family: cursive;
+    color: rgb(134, 134, 22);
+}
+.pro-so{
+    margin-top: 10px;
+    color: gray;
+    font-size: 15px;
+    font-family: serif;
+}
+.project2{
+    justify-content: flex-end;
+    gap: 24px;
+    margin-top: 20px;
+}
+.project-anh{
+    height: 300px;
+    width: 270px;
+    position: relative;
+    border: 1px solid white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.project-chu{
+    position: absolute;
+    margin-top: -89px;
+    font-size: 23px;
+    color: white;
+    margin-left: 29px;
+}
+.mutmut{
+    position: absolute;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 179px;
+    color: white;
+    font-size: 21px;
+    margin-top: -280px;
+}
+.project3{
+    justify-content: flex-end;
+    gap: 115px;
+
+}
+.nuticon{
+    margin-top: 10px;
+}
+.buwin{
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.chong{
+    border: 1px solid white;
+    height: 150px;
+    width: 880px;
+    border-radius: 10px;
+    background: #deb88752;
+    margin-top: -65px;
+}
+/* meetfarmers */
+.meetfarmers{
+    margin-top: 40px;
+    justify-content: center;
+}
+.meet-chu{
+    text-align: center;
+}
+.chup{
+    font-size: 15px;
+    font-family: cursive;
+    color: rgb(134, 134, 22);
+}
+.meetanh{
+    justify-content: center;
+    margin-top: 15px;
+    gap: 21px;
+}
+.anhhh-item{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.be{
+    position: absolute;
+    border: 1px solid white;
+    height: 55px;
+    width: 160px;
+    border-radius: 10px;
+    margin-top: -35px;
+    background: white;
+    margin-left: 90px;
+}
+.to{
+    position: absolute;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    background: green;
+    margin-left: 72px;
+    margin-top: -21px;
+    color: white;
+    font-size: 15px;
+}
+.chungicon{
+    display: inline-grid;
+    position: absolute;
+    border: 1px solid;
+    width: 30px;
+    height: -130px;
+    height: 160px;
+    margin-top: -185px;
+    border-radius: 7px;
+    margin-left: 67px;
+    background: yellow;
+    color: white;
+    gap: 24px;
+    font-size: 16px;
+}
+/* ecofriendly */
+.ecofriendly{
+    margin-top: 60px;
+}
+.ecofriendly-anh{
+    position: relative;
+    height: 500px;
+}
+.ppay{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -292px;
+    background: #808080c9;
+    margin-left: 685px;
+}
+.pyaay{
+    position: absolute;
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 29px;
+    margin-top: 30px;
+    font-size: 26px;
+}
+.p-play{
+    position: absolute;
+    text-align: center;
+    margin-top: -142px;
+    margin-left: 525px;
+    font-size: 38px;
+    color: white;
+    
+}
+/* foot16 */
+.foot16{
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    background: #fff8dc45;
+}
+.anbh-item{
+     border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.anbhfoot{
+    justify-content: center;
+    gap: 35px;
+    margin-top: 10px;
+}
+.anbh{
+    object-fit: cover;
+    position: relative;
+    height: 250px;
+    width: 240px;
+}
+.ghij{
+    height: 35px;
+    width: 116px;
+    font-size: 18px;
+    font-family: cursive;
+    border: 1px solid;
+    border-radius: 10px;
+    background: #0d800ded;
+    margin-top: 230px;
+    position: absolute;
+    margin-left: -177px;
+}
+
+.mnb{
+    color: yellow;
+}
+.vcnb{
+    margin-top: 25px;
+}
+.zxc{
+    gap: 12px;
+    margin-left: 35px;
+}
+.azcv{
+    margin-top: 5px;
+    font-family: math;
+}
+.anhnaa{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 10%;
+
+}
+.lp{
+    font-size: 15px;
+    font-family: cursive;
+    color: #c07b1fd1;
+ }

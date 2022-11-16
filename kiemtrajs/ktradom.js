@@ -1,7 +1,7 @@
 
-const qt = document.querySelector(".qt");
-const qtminus = document.querySelector(".qt-minus");
-const qtplus = document.querySelector(".qt-plus");
+const qt = document.querySelector(".qt .lastchild");
+const qtminus = document.querySelector(".qt-minus .lastchild");
+const qtplus = document.querySelector(".qt-plus .lastchild");
 
 
 function increase(item, el) {

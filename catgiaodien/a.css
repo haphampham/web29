@@ -602,9 +602,12 @@ i {
     font-family: math;
 }
 .anhnaa{
-    object-fit: cover;
     height: 100px;
     width: 100px;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 10%;
+
 }
 .foot17{
     justify-content: center;
@@ -678,12 +681,14 @@ i {
     margin-top: 10px;
 }
 .iiiii{
-    font-size: 28px;
+    font-size: 24px;
     height: 42px;
     width: 42px;
     border: 1px solid;
-    background: green;;
-    margin-left: 71px;
+    background: green;
+    margin-left: 73px;
     color: white;
-  
+    border-right: 3px;
+    padding: 5px 0px;
+    margin-top: -1px;
 }
